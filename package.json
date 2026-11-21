@@ -1,0 +1,11 @@
+{
+  "name": "clg-event-management-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "node college-event-management-portal/start.js",
+    "start": "node college-event-management-portal/start.js",
+    "dev:backend": "npm --prefix college-event-management-portal/backend run dev",
+    "dev:frontend": "npm --prefix college-event-management-portal/frontend run dev",
+    "build": "npm --prefix college-event-management-portal/backend run build && npm --prefix college-event-management-portal/frontend run build"
+  }
+}
